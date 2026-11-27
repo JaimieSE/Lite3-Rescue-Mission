@@ -1,0 +1,7 @@
+[
+  {"id":"medical_supplies","description":"Find first-aid supplies and report room and location","target":"medical_supplies","priority":70},
+  {"id":"electrical_hazard","description":"Find electrical installation and identify the nearby warning symbol","target":"electrical_hazard","priority":80},
+  {"id":"kitchen_survivor","description":"Find survivor on the right side of the food-preparation room; verify the reference frame","target":"survivor","room":"kitchen","relation":"right","priority":90},
+  {"id":"all_survivors","description":"Continue searching for all survivors; finish only when search coverage is explicitly verified","target":"survivor","mode":"collection","priority":85},
+  {"id":"launch_area","description":"Locate the launch area; handoff requires a separate validated launch controller","target":"launch_area","priority":10}
+]

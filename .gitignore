@@ -1,0 +1,8 @@
+build/
+install/
+log/
+evidence/
+__pycache__/
+*.pid
+*.log
+*.sqlite3*
